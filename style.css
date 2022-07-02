@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+nav ul{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+  
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    height: 85px;
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.trand img{
+    width: 50px;
+    border-radius: 30px;
+    margin-left: 667px;
+}
+.brand img{
+    width: 44px;
+    padding-right: 7px;
+    padding : 0px 8px;
+}
+nav ul li{
+    color: white;
+    padding: 0px 10px;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: 1368px 630px;
+  
+}
+.container{
+    min-height: 67.5vh;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+  
+    width: 50%;
+    display: flex;
+   
+}
+.bottom{
+   position: sticky;
+   color: white;
+   background-color:rgba(0, 0, 0, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 120px;
+    flex-direction: column;
+    bottom: 0px;
+    
+}
+#myProgressBar{
+    width:75vw;
+    cursor: pointer;
+
+}
+.icon i{
+    cursor: pointer;
+}
+.icon{
+    margin-top: 7px; 
+}
+.songitem{
+    height: 50px;
+background-color: rgba(0, 0, 0, 0.7);
+
+display: flex;
+color: white;
+border-radius: 34px;
+justify-content: space-around;
+ align-items: center;
+ margin: 10px 0;
+ width: 75vh;
+}
+.songitem img{
+    width: 39px;
+    margin-left:20px;
+    border-radius: 34px;
+    margin-right: 10px;
+}
+.timestamp{
+   margin-left: 20px;
+}
+#one{
+ margin-left: 5px;
+}
+.timestamp i{
+    cursor: pointer;
+    
+}
+.Songitemcontainer{
+   
+    margin-top: 65px;
+    margin-left: 74px;
+}
+.songInfo{
+    position: absolute;
+    left:26vh;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-right: 5px;
+}
+#previous{
+    margin-right: 6px;
+}
+#next{
+    margin-left: 6px;
+}
+#th{
+    margin-left: 13px;
+}
+#fo{
+    margin-left: 11px;
+}
+#fi{
+    margin-left: 21px;
+}
+#si{
+    margin-left: 12px;
+}
+#1{
+ margin-left: 29px;   
+}
